@@ -89,6 +89,18 @@ to help users evaluate the neighborhood beyond the property itself.
 - Vite
 - OpenRouter API
 
+
+## Model Choice
+
+> Model: google/gemma-3-27b-it:free
+
+## Reasons:
+
+- Reliable JSON generation
+- Strong instruction following
+- Fast enough for real-time prototype interactions
+- Available on OpenRouter free tier
+
 ---
 
 ## Prompt Design Notes
