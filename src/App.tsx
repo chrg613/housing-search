@@ -706,7 +706,7 @@ const PropertyDrawer: React.FC<{
 const App: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([{
     role: "assistant",
-    text: "Welcome to 360 Ghar. Tell me what you're looking for — be as specific or vague as you like. I'll parse your intent, flag any conflicts, and find the best matching homes in Gurgaon.",
+    text: "Welcome to AI-Powered Property Discovery. Tell me what you're looking for — be as specific or vague as you like. I'll parse your intent, flag any conflicts, and find the best matching homes in Gurgaon.",
   }]);
   const [input, setInput] = useState("2BHK in Sector 50 under 80 lakhs, good sunlight, near a school");
   const [busy, setBusy] = useState(false);
@@ -829,7 +829,7 @@ const App: React.FC = () => {
       <nav style={{ position: "sticky", top: 0, zIndex: 30, background: "rgba(14,14,13,0.9)", backdropFilter: "blur(16px)", borderBottom: "1px solid var(--border)", padding: "0 28px", height: 54, display: "flex", alignItems: "center", justifyContent: "space-between", flexShrink: 0 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <svg width="30" height="30" viewBox="0 0 72 72" fill="none"><polygon points="36,10 66,26 66,54 36,70 6,54 6,26" fill="rgba(201,168,76,0.08)" stroke="rgba(201,168,76,0.25)" strokeWidth="1.2"/><polygon points="36,10 66,26 36,42 6,26" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.22)" strokeWidth="1"/><line x1="36" y1="10" x2="36" y2="42" stroke="rgba(201,168,76,0.35)" strokeWidth="1"/></svg>
-          <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 18, fontWeight: 500, color: "var(--text-primary)", letterSpacing: "0.04em" }}>360 Ghar</span>
+          <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 18, fontWeight: 500, color: "var(--text-primary)", letterSpacing: "0.04em" }}>AI-Powered Property Discovery</span>
           <span style={{ fontSize: 10, color: "var(--gold)", letterSpacing: "0.2em", textTransform: "uppercase", opacity: 0.75 }}>AI Search</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
@@ -906,7 +906,7 @@ const App: React.FC = () => {
 
               {/* Role label */}
               <p style={{ fontSize: 10, color: "var(--text-muted)", marginTop: 5, letterSpacing: "0.06em", textTransform: "uppercase" }}>
-                {msg.role === "user" ? "You" : "360 Ghar AI"}
+                {msg.role === "user" ? "You" : "AI-Powered Property Discovery AI"}
               </p>
             </div>
           ))}
