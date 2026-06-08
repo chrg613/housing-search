@@ -1,6 +1,8 @@
-# 360 Ghar – AI Property Search Assistant
+# AI-Powered Property Discovery
 
 An AI-powered property discovery prototype built for the 360 Ghar Software Developer Intern assignment.
+
+> Live Url : https://housing-search.vercel.app
 
 The application allows users to search for properties using natural language, automatically extracts structured filters using an LLM, ranks matching Gurgaon properties, and generates personalized AI explanations for each recommendation.
 
